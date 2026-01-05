@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Present Life - My Autobiography</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+    * {
+
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    body {
+
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      background: linear-gradient(135deg, #00c6ff, #0072ff, #00c6ff, #0072ff);
+      background-size: 400% 400%;
+      animation: gradientMove 10s ease infinite;
+      overflow-x: hidden;
+
+    }
+
+    @keyframes gradientMove {
+
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+
+    }
+
+    header {
+
+      text-align: center;
+      padding: 40px 10px;
+
+    }
+
+    header h1 {
+
+      font-size: 3rem;
+      background: linear-gradient(90deg, #ffffff, #d8e8ff, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 2s infinite alternate;
+
+    }
+
+    @keyframes glow {
+
+      from { text-shadow: 0 0 10px #fff; }
+      to { text-shadow: 0 0 20px #cce6ff; }
+
+    }
+
+    .content {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 20px 50px 50px;
+
+    }
+
+    .photo {
+
+      flex: 1 1 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .photo img {
+
+      width: 320px;
+      height: 320px;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+      animation: float 4s ease-in-out infinite;
+
+    }
+
+    @keyframes float {
+
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+
+    }
+
+    .text {
+
+      flex: 2 1 500px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 20px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+      line-height: 1.7;
+      font-size: 1.1rem;
+      animation: fadeIn 2s ease;
+
+    }
+
+    @keyframes fadeIn {
+
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+
+    }
+
+    .highlight {
+
+      color: #b3ecff;
+      font-weight: bold;
+
+    }
+
+    .nav-buttons {
+
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 40px;
+      padding-bottom: 30px;
+
+    }
+
+    .nav-buttons a {
+
+      display: inline-block;
+      padding: 10px 25px;
+      font-size: 1.1rem;
+      color: white;
+      background: rgba(255, 255, 255, 0.15);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 25px;
+      text-decoration: none;
+      transition: 0.3s;
+
+    }
+
+    .nav-buttons a:hover {
+
+      background: rgba(255, 255, 255, 0.4);
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+
+    }
+
+    footer {
+
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>💭 Present Life 💭</h1>
+  </header>
+
+  <section class="content">
+
+    <div class="photo">
+        
+      <img src="presentphoto.jpg" alt="Present Life Photo">
+    </div>
+
+    <div class="text">
+      <p>
+        Sa kasalukuyan, <span class="highlight">nag-aaral pa rin ako</span> pahinga, sabay laban ulit, Minsan may iyak, pero
+        laban pa rin, Ganito siguro talaga ang buhay estudyante, paulit-ulit ang cycle,aral, tulog, kain, pahinga,
+        tapos balik ulit sa aral,
+      </p>
+
+      <p>
+        Naiisip ko rin ang mga <span class="highlight">working students</span> saludo talaga ako sa kanila, Kasi habang
+        nagtatrabaho at napapagod, nag-aaral pa rin sila, Sobrang bigat noon, kaya pakiramdam ko ay maswerte ako dahil may
+        sumusuporta sa pag-aaral ko,
+      </p>
+
+      <p>
+        Kapag may oras ako, <strong>nagpapahinga</strong> ako, minsan gala ng konti bago bumalik sa pag-aaral, Dati hilig
+        ko mag-chess, basketball, at Rubiks cube, pero ngayon pahinga na muna focus sa laban ng buhay,
+      </p>
+
+      <p>
+        Sa usapang <strong>relasyon</strong>, single ako ngayon 😅, Kapag naiisip ko yon, parang mabigat pa sa isip,
+        Kaya sabi ko, <span class="highlight">pass muna</span>, Hanngang tingin lang muna ako, kasi gusto ko muna ayusin ang sarili ko,
+      </p>
+
+      <p>
+        At sa motivation naman dati, mabilis mawala ang gana ko, Kaya ngayon, hindi na ako umaasa sa motivation,
+        kundi sa <span class="highlight">disiplina</span>, Kasi kapag disiplinado ka, tuloy-tuloy ka kahit wala nang gana.
+      </p>
+
+    </div>
+  </section>
+
+
+  <div class="nav-buttons">
+    <a href="growth.html">← Previous</a>
+    <a href="future.html">Next →</a>
+
+  </div>
+
+  <footer>© 2025 | My Autobiography Project</footer>
+
+</body>
+</html>
