@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction - The Journey of My Life</title>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+    * {
+
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    
+    }
+
+    body {
+
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(120deg, #84fab0, #8fd3f4, #a18cd1, #fbc2eb);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      text-align: center;
+      overflow: hidden;
+    
+    }
+
+    @keyframes gradientBG {
+
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    
+    }
+
+    h1 {
+
+      font-size: 3rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #fff, #ffe57f, #fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 2s infinite alternate;
+    
+    }
+
+    @keyframes glow {
+
+      from { text-shadow: 0 0 10px #ffeb3b; }
+      to { text-shadow: 0 0 20px #ffffff; }
+    
+    }
+
+    .typewriter {
+
+      font-size: 1.2rem;
+      width: 80%;
+      max-width: 700px;
+      margin-top: 30px;
+      border-right: 3px solid white;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 2s steps(60) 1s forwards, blink 0.8s infinite;
+    
+    }
+
+    @keyframes typing {
+
+      from { width: 0; }
+      to { width: 100%; }
+    
+    }
+
+    @keyframes blink {
+    
+      50% { border-color: transparent; }
+    
+    }
+
+    .fade-text {
+
+      opacity: 0;
+      animation: fadeIn 2s ease forwards;
+      animation-delay: 2s;
+      font-weight: 300;
+      font-size: 1.1rem;
+      margin-top: 15px;
+      width: 80%;
+      max-width: 700px;
+      line-height: 1.6;
+    
+    }
+
+    @keyframes fadeIn {
+
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    
+    }
+
+    .nav-buttons {
+
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 50px;
+      opacity: 0;
+      animation: fadeIn 2s ease forwards;
+      animation-delay: 2s;
+    
+    }
+
+    .nav-buttons a {
+
+      display: inline-block;
+      padding: 10px 25px;
+      font-size: 1.1rem;
+      color: white;
+      background: rgba(255, 255, 255, 0.15);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 25px;
+      text-decoration: none;
+      backdrop-filter: blur(4px);
+      transition: 0.3s;
+    
+    }
+
+    .nav-buttons a:hover {
+
+      background: rgba(255, 255, 255, 0.4);
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+    
+    }
+
+    footer {
+
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌟 Introduction 🌟</h1>
+
+  <div class="typewriter">
+    Hello! Maligayang pagbati, ako si Kyross Geane Palen, at 20 years old na ako, at nakatira ako sa Pasig City, at ito ang kwento ng aking paglalakbay sa puno ng paglago,aral, at mga pangarap.
+  </div>
+
+  <div class="fade-text">
+    Sa website na ito, ang purpose nito ay maginspire sa lahat ng mga estudyante, guro, at sa lahat ng mga kaibigan at ang mga pangunahing tema ng aking autobiography, Mula sa aking mga pinagmulan hanggang sa aking mga pangarap para sa hinaharap, inaasahan kong maibahagi ang mga mahahalagang detalye ng aking buhay at ang mga aral na aking natutunan sa lahat.
+  </div>
+
+  <div class="nav-buttons">
+    <a href="title.html">← Previous</a>
+    <a href="childhood.html">Next →</a>
+  </div>
+
+  <footer>© 2025 | My Autobiography Project</footer>
+
+</body>
+</html>
