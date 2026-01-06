@@ -1,0 +1,4 @@
+136731100109,mario,computer,3.00
+123456,ebedo,computer,1.00
+1234567,ocsan,computer,1.00
+12345,eve,computer,1.00
